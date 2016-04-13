@@ -1,4 +1,4 @@
-{{$service := env "SERVICE_NAME"}}
+{{$service := env "SERVICE"}}
 
 upstream app {
     least_conn;
