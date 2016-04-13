@@ -1,4 +1,5 @@
 FROM nginx:1.9.14
+MAINTAINER Cheng Long <me@chengl.com>
 
 RUN apt-get update && apt-get install -y unzip
 
